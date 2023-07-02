@@ -112,6 +112,6 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-smart-modal-doc"
+    }
+  }
 }
