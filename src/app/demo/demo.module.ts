@@ -14,22 +14,21 @@ import { FakeComponent } from './fake/fake.component';
 import { NgxSmartModalModule } from '../../ngx-smart-modal';
 
 @NgModule({
-  declarations: [
-    DemoComponent,
-    MainComponent,
-    ForkMeComponent,
-    BootstrapComponent,
-    MaterializeComponent,
-    FoundationComponent,
-    AutostartComponent,
-    FakeComponent
-  ],
-  imports: [
-    BrowserModule,
-    RouterModule,
-    NgxSmartModalModule.forRoot()
-  ],
-  entryComponents: [FakeComponent]
+    declarations: [
+        DemoComponent,
+        MainComponent,
+        ForkMeComponent,
+        BootstrapComponent,
+        MaterializeComponent,
+        FoundationComponent,
+        AutostartComponent,
+        FakeComponent
+    ],
+    imports: [
+        BrowserModule,
+        RouterModule,
+        NgxSmartModalModule.forRoot()
+    ]
 })
 export class DemoModule {
 }

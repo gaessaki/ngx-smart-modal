@@ -6,10 +6,9 @@ import { NgxSmartModalStackService } from '../services/ngx-smart-modal-stack.ser
 import { NgxSmartModalComponent } from '../components/ngx-smart-modal.component';
 
 @NgModule({
-  declarations: [NgxSmartModalComponent],
-  entryComponents: [NgxSmartModalComponent],
-  exports: [NgxSmartModalComponent],
-  imports: [CommonModule]
+    declarations: [NgxSmartModalComponent],
+    exports: [NgxSmartModalComponent],
+    imports: [CommonModule]
 })
 export class NgxSmartModalModule {
   /**
